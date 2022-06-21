@@ -1,1 +1,1 @@
-[{"id":1,"nome":"Verstappen"},{"id":2,"nome":"Perez"},{"id":3,"nome":"Leclerc"},{"id":4,"nome":"Sainz"},{"id":5,"nome":"Russell"},{"id":6,"nome":"Hamilton"},{"id":7,"nome":"Norris"},{"id":8,"nome":"Ricciardo"},{"id":9,"nome":"Fernando"},{"id":10,"nome":"Ocon"}]
+[{"id":1,"nome":"Verstappen"},{"id":2,"nome":"Perez"},{"id":3,"nome":"Leclerc"},{"id":4,"nome":"Sainz"},{"id":5,"nome":"Russell"},{"id":6,"nome":"Hamilton"},{"id":7,"nome":"Norris"},{"id":8,"nome":"Ricciardo"},{"id":9,"nome":"Fernando"},{"id":10,"nome":"Ocon"},{"id":11,"nome":"Bottas"}]

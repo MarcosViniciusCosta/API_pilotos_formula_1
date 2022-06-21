@@ -1,14 +1,13 @@
-import { Router } from "express";
-import { userController } from "./Controller/UsersController.js";
-const routes =  Router();
-
-routes.get("/usuarios", userController.listar_usuario);
-
-routes.post("/usuarios", userController.criar_usuario);
-
-routes.delete("/usuarios/:id", userController.remover_usuario);
-
-routes.put("/usuarios", userController.atualizar_usuario);
-
-
-export {routes};
+"use strict";
+exports.__esModule = true;
+exports.routes = void 0;
+var express_1 = require("express");
+//import { userController } from "./Controller/UsersController.js";
+var usersController_1 = require("./Controller/usersController");
+var routes = (0, express_1.Router)();
+exports.routes = routes;
+var users_controller = new usersController_1.usersController();
+routes.get("/usuarios", users_controller.listar_usuario);
+routes.post("/usuarios", users_controller.criar_usuario);
+routes["delete"]("/usuarios/:id", users_controller.remover_usuario);
+routes.put("/usuarios", users_controller.atualizar_usuario);

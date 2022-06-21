@@ -1,11 +1,8 @@
-import express from "express";
-import { routes } from "./routes.js";
-
-const aplicativo = express();
+"use strict";
+exports.__esModule = true;
+var express = require("express");
+var routes_1 = require("./routes");
+var aplicativo = express();
 aplicativo.use(express.json());
-aplicativo.use(routes);
-
-
-
-
-aplicativo.listen(4567, () => console.log("Servidor rodando"));
+aplicativo.use(routes_1.routes);
+aplicativo.listen(4567, function () { return console.log("Servidor rodando"); });
